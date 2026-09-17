@@ -1,6 +1,7 @@
 ## Vinh Van
 
 **Fullstack developer in Hanoi** — NestJS and React, both in TypeScript, on a product team.
+I work on **two live product-feed apps**, one on the Shopify App Store and one on SHOPLINE.
 
 What I care about is the unglamorous half of shipping — knowing what a change breaks *before* you
 make it, and being able to prove it works afterwards. That is also why I put real effort into
@@ -14,7 +15,8 @@ working with AI agents: I write the guardrails first, then let them move fast in
 
 | | |
 | --- | --- |
-| 🛒 **[Omega Google & Facebook Feed](https://apps.shopify.com/google-shopping-feed-pro)** | **Day job — the product, not a side project.** A published Shopify app, live since 2020, **4.9★ from 110 reviews**. I'm a developer on it and have been since my internship: feature work, refactors, and day-to-day development across the NestJS API and the React admin UI. Closed source; the link goes to the App Store listing. |
+| 🛒 **[Omega Google & Facebook Feed](https://apps.shopify.com/google-shopping-feed-pro)**<br>*Shopify App Store* | **Day job — the product, not a side project.** Live since 2020, **4.9★ from 110 reviews**. I'm a developer on it and have been since my internship: feature work, refactors, and day-to-day development across the NestJS API and the React admin UI. Closed source; the link goes to the listing. |
+| 🛒 **[FeedNexa — Multiple Feed](https://apps.shopline.com/detail/feednexa_multiple_feed)**<br>*SHOPLINE App Store* | **Day job, second platform.** The same problem solved on a different commerce platform: generating and syncing XML product feeds out to Google, Meta, TikTok, Pinterest and Bing. Newer and smaller than the Shopify app — the reason I can say the domain knowledge transfers, not just the codebase. Closed source. |
 | **[visic](https://github.com/acevinh/visic)** | Chat with your own documents, answered only from your own content, with citations you can click back to. NestJS 11 · React/TS · PostgreSQL + pgvector · JWT · SSE streaming. |
 | **[claude-skills](https://github.com/acevinh/claude-skills)** | Four Claude Code skills for disciplined AI-assisted development: scope control, conventions read at runtime instead of remembered, evidence before "done", and a QA ledger that outlives the session. |
 | **[vinh-cv](https://github.com/acevinh/vinh-cv)** | The CV site above. React + TypeScript + Vite, liquid-glass UI built to a written design contract — no UI framework, no animation library, no PDF library, no analytics. |
@@ -24,7 +26,7 @@ working with AI agents: I write the guardrails first, then let them move fast in
 **Backend** — `NestJS` `TypeScript` `Node.js` `TypeORM` `PHP` `Laravel`
 **Frontend** — `React 18` `TypeScript` `Redux Toolkit` `Vite` `Shopify Polaris`
 **Data** — `MySQL` `MongoDB` `PostgreSQL + pgvector` `Redis` `BullMQ`
-**Platform** — `Docker` `Shopify Admin GraphQL` `Google Merchant Center` `Meta Catalog`
+**Platform** — `Docker` `Shopify Admin GraphQL` `SHOPLINE` `Google Merchant Center` `Meta Catalog` `TikTok Catalog`
 
 ### Certified
 
