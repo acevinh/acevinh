@@ -2,6 +2,8 @@
 
 Fullstack developer in Hanoi. NestJS and React in TypeScript, on a product team.
 
+**[vinhvan.netlify.app](https://vinhvan.netlify.app)** — CV, projects and how I work.
+
 I care about the unglamorous half of shipping: knowing what a change breaks before you make it, and
 being able to prove it works afterwards. That is also why I put real effort into working with AI
 agents — I write the guardrails first, then let them move fast inside those.
