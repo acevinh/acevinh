@@ -23,16 +23,18 @@ working with AI agents: I write the guardrails first, then let them move fast in
 
 ### Selected work on the feed apps
 
-- Built the app's bulk disapproval workflow, its most-worked-on area — turning raw Google and Meta
-  rejection codes into a triaged issue list merchants can act on.
-- Cut false "not approved" verdicts by replacing a one-shot catalog check with a retry chain and a
-  merchant-visible ETA.
-- Raised Shopify → Google product-category coverage to 99.5%, measured against both published
-  taxonomies rather than estimated.
-- Ended silent API-contract breakage by generating the React admin's client from the backend's
-  OpenAPI document.
-- Work to a written process I maintain: a 314-case QA ledger that makes regressions re-runnable,
-  and the agent rules published as claude-skills.
+- Fullstack on a feed app live since 2020 — a NestJS API, a dozen queue workers and a React admin
+  that push merchant catalogues to Google, Meta, TikTok, Bing and Pinterest.
+- Own the approval side: read each channel's verdict back per product, group the rejections by
+  cause, attach a fix path. A wall of rejected items becomes a list a merchant can work through.
+- Ad channels index asynchronously, so a status check can run before the catalogue is queryable.
+  Replaced the one-shot verdict with a retry chain and a published ETA, so pending stops reading
+  as rejected.
+- Built the multi-account, multi-feed and multi-market setup — several ad accounts per channel,
+  per-market feeds carrying their own language and currency, and a category mapping measured at
+  99.5% coverage.
+- Work to a written process I maintain: a generated API client so a contract change cannot be
+  missed, and a 314-case QA ledger so regressions get re-run rather than remembered.
 
 ### Stack
 
